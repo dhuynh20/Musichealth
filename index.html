@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music & Mental Health</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #89CFF0, #4682B4);
+            padding: 40px 0;
+            text-align: center;
+            color: #fff;
+            border-bottom: 5px solid #357ABD;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            font-size: 3em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .photo-section img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .quick-facts {
+            background-color: #e3f2fd;
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 2px solid #90caf9;
+            border-bottom: 2px solid #90caf9;
+        }
+        .quick-facts h2 {
+            margin-top: 0;
+            font-family: 'Roboto', sans-serif;
+            font-size: 2em;
+        }
+        .quick-facts ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0 0 0;
+        }
+        .quick-facts ul li {
+            margin: 10px 0;
+            font-size: 1.1em;
+            color: #555;
+        }
+        .learn-more {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .learn-more button {
+            background-color: #4a90e2;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            font-family: 'Roboto', sans-serif;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .learn-more button:hover {
+            background-color: #357ABD;
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #4a90e2;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            border-top: 5px solid #357ABD;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Music & Mental Health</h1>
+            <p>Exploring the harmonious connection between music and mental well-being</p>
+        </div>
+    </header>
+    <main>
+        <div class="video-section">
+            <h2>Watch Our Video</h2>
+            <video controls autoplay loop>
+                <source src="IS451video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        </section>
+        <section class="quick-facts">
+            <div class="container">
+                <h2>Quick Facts</h2>
+                <ul>
+                    <li>Listening to music can reduce anxiety and stress levels.</li>
+                    <li>Playing an instrument has been shown to improve cognitive functions.</li>
+                    <li>Music therapy can be effective in treating depression.</li>
+                    <li>Singing releases endorphins, which help to alleviate pain and boost happiness.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="learn-more">
+            <div class="container">
+                <button onclick="window.location.href='content.html'">Learn More</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Music & Mental Health</p>
+        </div>
+    </footer>
+</body>
+</html>
